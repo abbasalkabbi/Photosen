@@ -1,0 +1,61 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+header{
+    padding: 10px 20px;
+    width: 100vw;
+    height: 100px;
+    border: 1px red solid;
+    display: flex;
+}
+/* header logo */
+header .logo{
+    width: 20%;height: 100%;
+    border: 1px red solid;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+}
+header .logo h1{
+    font-family: Arial
+}
+header .logo h1 a{
+    text-decoration: none;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2.5rem;
+}
+/* End header logo End */
+/* header .menu */
+header .menu{
+    width: 60%;
+    height: 100%;
+    border: 1px rgb(0, 110, 255) solid;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center
+}
+header .menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+    border: 1px #fff solid;
+
+}
+.menu ul li{
+    width: fit-content;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/* END header .menu  */
