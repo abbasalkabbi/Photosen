@@ -95,3 +95,22 @@ header .social ul li a:hover{
 }
 /* End header  social */
 /* End Header */
+/* home */
+.home{
+    width: 100vw;
+    height: 100vh;
+    border: 1px #fff solid;
+}
+/* image */
+.home .image{
+    width: 449px;
+    height: 437px;
+    padding:5px 15px;
+    border: 1px #fff solid;
+}
+/* img */
+.home .image img{
+    width: 100%;
+}
+/*End image */
+/* End home */
