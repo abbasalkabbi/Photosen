@@ -2,7 +2,7 @@ console.log('ho')
 const home=document.querySelector(".home")
 async function get_img() {
 
-    const requestURL = '../gallery.json';
+    const requestURL = 'https://abbasalkabbi.github.io/Photosen/gallery.json';
     const request = new Request(requestURL);
     const response = await fetch(request);
     const gallery = await response.json();
