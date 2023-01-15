@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Nature",
+        "url":"img_1.jpg"
+    },
+    {
+        "name": "Portrait",
+        "url":"img_2.jpg"
+    },
+    {
+        "name": "People",
+        "url":"img_3.jpg"
+    },
+    {
+        "name": "Architecture",
+        "url":"img_4.jpg"
+    },
+    {
+        "name": "Animals",
+        "url":"img_5.jpg"
+    },
+    {
+        "name": "Sports",
+        "url":"img_6.jpg"
+    }
+]
