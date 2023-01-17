@@ -180,7 +180,7 @@ header .social ul li a:hover{
 }
 /* End home style in moblie */
 /* home style in ipad */
-@media screen and (max-width: 1000px){
+@media screen and (min-width:600px) and (max-width: 1000px){
     /* home */
     /* image */
     .home .image{
