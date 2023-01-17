@@ -1,0 +1,18 @@
+.gallery{
+    border: #fff 1px solid;
+    width: 90vw;
+    height: calc(100vh - 100px);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center
+}
+.gallery h1{
+    color: #fff;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 100px;
+    text-align: center;
+}
