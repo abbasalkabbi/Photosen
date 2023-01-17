@@ -164,4 +164,29 @@ header .social ul li a:hover{
 /*End  img-info */
 
 /*End image */
+/* home style in moblie */
+@media screen and (max-width: 600px){
+    /* home */
+    .home
+        {
+        flex-direction: column;
+        align-items: center;
+        }
+    /* image */
+    .home .image{
+        width: 100%;
+    }
+    /* End image */
+}
+/* End home style in moblie */
+/* home style in ipad */
+@media screen and (max-width: 1000px){
+    /* home */
+    /* image */
+    .home .image{
+        width: 50%;
+        }
+    /* End image */
+}
+/*End home style in ipad */
 /* End home */
