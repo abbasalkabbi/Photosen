@@ -1,0 +1,25 @@
+.services{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid #fff;
+}
+/* header */
+.services .header{
+    height: 100px;
+    width: 100%;
+    border:  1px saddlebrown solid;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.services h1{
+    color: #fff;
+    font-family: inherit;
+    font-weight:bolder;
+    line-height: 1.2;
+    font-size: 50px;
+    text-align: center;
+}
+/* End header */
