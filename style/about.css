@@ -4,7 +4,6 @@
     min-height: 100vh;
     height: fit-content;
     max-height: fit-content;
-    border: 1px solid rgb(21, 255, 0);
 }
 /* mission */
 .about .my-mission{
@@ -13,14 +12,12 @@
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    border: burlywood 1px solid;
     margin-bottom: 50px;
 }
 /* right */
 .about .my-mission .right{
     width: 40%;
     height: 100%;
-    border: red 1px solid;
     float: right;
     padding: 10px 40px;
 }
@@ -45,7 +42,6 @@
     height: 100%;
     float: left;
     overflow: hidden;
-    border: blue 1px solid;
 }
 .about .my-mission .left img{
     width: 100%;
@@ -57,7 +53,6 @@
 .about .our-team{
     width: 100%;
     height: 500px;
-    border: brown 1px solid;
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
@@ -66,7 +61,6 @@
 .about .our-team .member{
     width: 30%;
     height: 500px;
-    border: blueviolet 1px solid;
 }
 /* avatar */
 .about .our-team .member .avatar{
@@ -74,7 +68,6 @@
     height: 50%;
     display: flex;
     justify-content: center;
-    border: 1px solid #fff;
 }
 .about .our-team .member .avatar img{
     border-radius: 50%;
@@ -85,7 +78,6 @@
 .about .our-team .member section{
     width: 100%;
     height: 40%;
-    border: #777777 1px solid;
     padding: 5px;
     display: flex;
     flex-direction: column-reverse;
@@ -102,7 +94,6 @@
 .about .our-team .member .social-group{
     width: 50%;
     height: 10%;
-    border: blue 1px solid;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -174,8 +165,29 @@
 @media screen and (min-width:600px) and (max-width: 1000px){
     /* mission */
     .about .my-mission{
-        height: 400px;
+        height: 350px;
     }
+    /* right */
+    .about .my-mission .right h2{
+        text-align: center;
+    }
+    .about .my-mission .right p{
+        text-align: center;
+    }
+    /* End right */
+    /*End  mission */
+     /* our team */
+    .about .our-team{
+        height: fit-content;
+        flex-wrap: wrap
+    }
+    /* member */
+    .about .our-team .member{
+        width: 40%;
+        margin-bottom: 40px;
+    }
+    /*End member */
+    /* our team */
 }
 /*  End style in ipad */
 /* end about */
