@@ -1,0 +1,23 @@
+.contact{
+    width: 100vw;
+    height: fit-content;
+}
+/* header */
+.contact .header{
+    height: 100px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.contact h1{
+    color: #fff;
+    font-family: inherit;
+    font-weight:bolder;
+    line-height: 1.2;
+    font-size: 50px;
+    text-align: center;
+}
+/* End header */
