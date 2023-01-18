@@ -1,8 +1,10 @@
 /* about */
 .about{
     width: 100vw;
-    height: 100vh;
-    border: 1px solid #fff;
+    min-height: 100vh;
+    height: fit-content;
+    max-height: fit-content;
+    border: 1px solid rgb(21, 255, 0);
 }
 /* mission */
 .about .my-mission{
@@ -12,6 +14,7 @@
     justify-content: center;
     flex-direction: row-reverse;
     border: burlywood 1px solid;
+    margin-bottom: 50px;
 }
 /* right */
 .about .my-mission .right{
@@ -53,10 +56,11 @@
 /* our team */
 .about .our-team{
     width: 100%;
-    height: 400px;
+    height: 500px;
     border: brown 1px solid;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 /* member */
 .about .our-team .member{
@@ -113,4 +117,65 @@
 /* End social-group */
 /* End member */
 /*End our team */
+/* style in moblie */
+@media screen and (max-width: 600px){
+    .about{
+        width: 100vmax;
+    }
+    /* mission */
+    .about .my-mission{
+        flex-direction: column;
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    /* right */
+    .about .my-mission .right{
+        width: 100%;
+        height: 200px;
+    }
+    .about .my-mission .right h2{
+        text-align: center;
+    }
+    .about .my-mission .right p{
+        text-align: center;
+    }
+    /* End right */
+    /* left */
+    .about .my-mission .left{
+        width: 100%;
+        height: 500px;
+    }
+    .about .my-mission .left img{
+        height: 100%;width:100%;
+    }
+    /*End  left */
+    /*End  mission */
+    /* our team */
+    .about .our-team{
+        width: 100vmax;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    /* member */
+    .about .our-team .member{
+        width: 60%;
+        height: 500px;
+        margin-bottom: 20px;
+    }
+    /*End member */
+    /* our team */
+}
+/* End  style in moblie */
+/*  style in ipad */
+@media screen and (min-width:600px) and (max-width: 1000px){
+    /* mission */
+    .about .my-mission{
+        height: 400px;
+    }
+}
+/*  End style in ipad */
 /* end about */
