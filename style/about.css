@@ -1,0 +1,53 @@
+/* about */
+.about{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid #fff;
+}
+/* mission */
+.about .my-mission{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    border: burlywood 1px solid;
+}
+/* right */
+.about .my-mission .right{
+    width: 40%;
+    height: 100%;
+    border: red 1px solid;
+    float: right;
+    padding: 10px 40px;
+}
+.about .my-mission .right h2{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.2;
+    font-size: 32px;
+    text-align: start;
+}
+.about .my-mission .right p{
+    color: #777777;
+    font-size: 16px;
+    text-align: start;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*end  right */
+/*  left */
+.about .my-mission .left{
+    width: 40%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    border: blue 1px solid;
+}
+.about .my-mission .left img{
+    width: 100%;
+}
+/*end  left */
+
+/*End  mission */
+/* end about */
