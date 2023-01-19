@@ -63,5 +63,77 @@
 }
 /* End info-call */
 /* end info */
+/* form */
+.contact section form{
+    border: 1px seagreen solid;
+    height: 100%;width: 70%;
+}
+.contact section form .input{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+.contact section form .input .input-label{
+    width: 60%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact section form .input .input-field{
+    width: 60%;
+    height: 50%;
+    background-color: transparent;
+    border: 1px solid #777777;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact section form .input .input-field:focus{
+    border-color: #20c97f;
+    outline: 0;
+}
+.contact section form .input .input-field:valid{
+    border-color: #20c97f;
+    outline: 0;
+}
+/* textarea */
+.contact section form .textarea-div{
+    height: 300px;
+}
+.contact section form .input textarea{
+    width: 60%;
+    height: 80%;
+    background-color: transparent;
+    border: 1px solid #777777;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact section form .input textarea:focus{
+    border-color: #20c97f;
+    outline: 0;
+}
 
+/* textarea */
+/* send */
+.contact section form button{
+    background-color: #20c97f;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* End send  */
+/*end form */
 /*End  section  */
